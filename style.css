@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    max-height: auto;
+    padding-top: 5cm;
+    padding-bottom: 8cm;
+  }
+
+  .flex-container h1, p{
+    color: white;
+  }
+  button {
+    width: 150px;
+    height: auto;
+    background-color: yellow;
+    border-radius: 3px;
+    font-size: large;
+  }
+  button:hover {
+    cursor: pointer;
+    size: 20px;
+  }
